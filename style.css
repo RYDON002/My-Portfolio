@@ -64,7 +64,6 @@ body {
   color: #3b82f6;
 }
 
-/* navigation hover and active states */
 .nav-list a:hover {
   color: #3b82f6;
 }
@@ -178,6 +177,10 @@ body {
 
 .mobile-nav-list a:hover {
   color: #3b82f6;
+}
+
+#contactBtn{
+  text-decoration: none;
 }
 
 .hero {
@@ -830,10 +833,14 @@ body {
   }
 
   .footer-stats {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     padding-bottom: 2.5rem;
     align-items: center;
+  }
+
+  .stat{
+    margin-bottom: 20px;
   }
 
   .hero {
@@ -976,8 +983,12 @@ body {
     align-items: center;
   }
 
+  .stats{
+    margin-bottom: 20px;
+  }
+
   .footer-stats {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     padding-bottom: 2.5rem;
     align-items: center;
